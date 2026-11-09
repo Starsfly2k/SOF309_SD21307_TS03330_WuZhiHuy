@@ -1,0 +1,14 @@
+<%@ page import="fisch.util.Util" %>
+<div class="footer">
+    <p>Fisch Skin Trade - Cộng đồng trade skin Fisch (Roblox)</p>
+    <p>Discord: fischtrade#0000 | Hỗ trợ: 8h00 - 22h00</p>
+    <p>Website fan-made, không liên kết với Roblox hay nhà phát triển Fisch.</p>
+</div>
+<%
+    // Thông báo 1 lần (thay cho alert() trong bản JavaScript)
+    String thongBao = (String) session.getAttribute("msg");
+    if (thongBao != null) {
+        session.removeAttribute("msg");
+%>
+<script>alert("<%= Util.js(thongBao) %>");</script>
+<% } %>

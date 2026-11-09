@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0b1d2e;
+    color: #e6f4ff;
+}
+
+a {
+    color: #35d0ff;
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background: #08141f;
+    border-bottom: 2px solid #35d0ff;
+    padding: 15px 20px;
+}
+
+.logo {
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    color: #35d0ff;
+    line-height: 50px;
+}
+
+.nav {
+    float: right;
+    margin: 15px 0;
+}
+
+.nav a {
+    color: #e6f4ff;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.nav a:hover {
+    color: #35d0ff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOOTER */
+.footer {
+    background: #08141f;
+    padding: 20px 0;
+    margin-top: 50px;
+    color: #9db8cc;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* CHUNG */
+.wrapper1 {
+    color: #222;
+}
+
+h1,
+h2 {
+    color: #e6f4ff;
+}
+
+.btn {
+    background: #35d0ff;
+    color: #04131d;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.alt {
+    background: #ff9f1c;
+}

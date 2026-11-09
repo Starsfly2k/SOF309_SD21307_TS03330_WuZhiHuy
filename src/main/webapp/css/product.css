@@ -1,0 +1,128 @@
+.product {
+    width: 23%;
+    float: left;
+    margin: 1%;
+    background: #112b42;
+    border: 2px solid #24435e;
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 300px;
+}
+
+.thumb {
+    height: 140px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img,
+.thumb img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.product h3 {
+    font-size: 15px;
+    margin: 6px 0;
+    color: #fff;
+    min-height: 38px;
+}
+
+.tag {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: #04131d;
+}
+
+.price-old {
+    text-decoration: line-through;
+    color: #7f98ab;
+}
+
+.price-new {
+    color: #7dffb0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product .btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ĐỘ HIẾM */
+.r1 {
+    border-color: #8fa3b3;
+}
+.r1 .thumb {
+    background: linear-gradient(135deg, #2c3e50, #4b6075);
+}
+.r1 .tag {
+    background: #8fa3b3;
+}
+
+.r2 {
+    border-color: #3d8bff;
+}
+.r2 .thumb {
+    background: linear-gradient(135deg, #12366b, #3d8bff);
+}
+.r2 .tag {
+    background: #3d8bff;
+}
+
+.r3 {
+    border-color: #ff9f1c;
+}
+.r3 .thumb {
+    background: linear-gradient(135deg, #7a4300, #ff9f1c);
+}
+.r3 .tag {
+    background: #ff9f1c;
+}
+
+.r4 {
+    border-color: #c05bff;
+}
+.r4 .thumb {
+    background: linear-gradient(135deg, #4a1470, #c05bff);
+}
+.r4 .tag {
+    background: #c05bff;
+}
+
+/* TRANG CHỦ + BỘ LỌC */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(180deg, #0e3a5c, #0b1d2e);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 0 0 10px;
+}
+
+.filters {
+    margin: 15px 1%;
+}
+
+.filters input,
+.filters select {
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #24435e;
+    background: #112b42;
+    color: #fff;
+}

@@ -1,0 +1,111 @@
+/* Trang đăng ký / đăng nhập / thanh toán / xác nhận */
+.wrapper1 {
+    width: 400px;
+    max-width: 94%;
+    margin: 60px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #222;
+}
+
+.wrapper1.rong {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.wrapper1 h2 {
+    text-align: center;
+    color: #222;
+}
+
+.wrapper1 label {
+    display: block;
+    margin-top: 15px;
+}
+
+.wrapper1 input[type="text"],
+.wrapper1 input[type="email"],
+.wrapper1 input[type="password"],
+.wrapper1 textarea,
+.wrapper1 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.wrapper1 input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.loi {
+    background: #ffe3e3;
+    color: #b00020;
+    border: 1px solid #f5a3a3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.xacnhan {
+    width: 600px;
+    max-width: 94%;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.xacnhan h2 {
+    color: green;
+}
+
+/* Thêm vào giỏ trong thẻ sản phẩm */
+.product form {
+    margin: 0;
+}
+
+.filters .btn {
+    padding: 9px 14px;
+}
+
+/* Bảng giỏ hàng */
+.giohang {
+    background: #112b42;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.giohang table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.giohang tr.dong {
+    border-bottom: 1px solid #334e68;
+    height: 50px;
+}
+
+.giohang thead tr {
+    border-bottom: 2px solid #35d0ff;
+    height: 40px;
+}
+
+.giohang form {
+    margin: 0;
+    display: inline;
+}

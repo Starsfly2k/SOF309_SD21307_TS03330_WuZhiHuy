@@ -1,0 +1,23 @@
+<%@ page import="java.util.Map, fisch.model.NguoiDung" %>
+<%
+    NguoiDung hdrUser = (NguoiDung) session.getAttribute("dangnhap");
+    Map<?, ?> hdrGio = (Map<?, ?>) session.getAttribute("gh");
+    int hdrSoLuong = (hdrGio == null) ? 0 : hdrGio.size();
+%>
+<div class="header clearfix">
+    <div class="wrapper">
+        <div class="logo">🎣 Fisch Skin Trade</div>
+        <div class="nav">
+            <a href="home">Trang chủ</a>
+            <a href="sanpham">Skin</a>
+            <% if (hdrUser != null) { %>
+                <a href="#">Xin chào, <%= fisch.util.Util.esc(hdrUser.getTen()) %></a>
+                <a href="dangxuat">Đăng xuất</a>
+            <% } else { %>
+                <a href="dangky">Đăng ký</a>
+                <a href="dangnhap">Đăng nhập</a>
+            <% } %>
+            <a href="giohang">Giỏ trade (<%= hdrSoLuong %>)</a>
+        </div>
+    </div>
+</div>
